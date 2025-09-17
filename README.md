@@ -1,37 +1,36 @@
-# Joey LLM Chat Interface
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This repo is for the **Next.js chat interface** that connects to the Joey API.
+## Getting Started
 
----
+First, run the development server:
 
-## 🎯 Focus
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**Goal:** Build a working chat interface in Next.js 15. 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Must connect to the Joey API:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-`
-  base_url = "http://api.joeyllm.ai/v1"
-`
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- OpenAI-compatible, no API key required.  
-- Responses **must stream** — messages should appear progressively as they are generated, not only after completion.  
-- You may adapt code from existing Next.js chat repos.  
-- The only requirement: **it works**.  
+## Learn More
 
-👉 If you get stuck, you can look up public Next.js chat examples. At this point you should know how to build it. Don’t overthink it—the goal is a working interface.
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📦 Deliverable
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- A working interface that runs and connects to the Joey API with streaming responses.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🔜 Coming Next Sprint
-
-- Add **user login** with an auth service.  
-- Use **Postgres** to track sign-ins and record chat history.  
-
-⚡ If today’s work finishes early, you may start on this ahead of next week.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
